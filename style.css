@@ -1,11 +1,20 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, sans-serif;
   margin: 0;
+  width: 1500px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
   height: 72px;
   background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+
 }
 
 .footer {
@@ -32,4 +41,22 @@ body {
 .section4 {
   height: 400px;
   background-color: #FFFFFF;
+}
+
+.left-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #E5E7EB;
+  text-decoration: none;
+  font-size: 18px;
 }
