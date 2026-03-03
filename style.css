@@ -28,8 +28,27 @@ body {
 }
 
 .section1 {
-  height: 400px;
   background-color: #1F2937;
+  display: flex;
+  padding: 100px 200px;
+  gap: 80px;
+}
+
+.section1-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 550px;
+}
+
+.section1-imageplaceholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 220px;
+  background-color: #6D747D;
+  color: #E5E7EB;
 }
 
 .section2 {
