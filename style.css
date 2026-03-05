@@ -52,20 +52,22 @@ a {
 .section1-content{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   width: 500px;
   
 }
 
 .hero-title {
-  font-size: 44px;
+  font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
+  margin: 0;
 }
 
 .hero-text {
   font-size: 18px;
   color: #E5E7EB;
+  margin: 0;
 }
 
 .section1-button {
@@ -101,6 +103,7 @@ a {
   color: #1F2937;
   text-align: center;
   padding: 40px 0;
+  margin: 0;
 }
 
 .section2-content {
@@ -128,6 +131,7 @@ a {
   height: 150px;
   text-align: center;
   color: #646a72;
+  margin: 0;
 }
 
 
