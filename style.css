@@ -45,7 +45,7 @@ a {
   background-color: #1F2937;
   display: flex;
   justify-content: center;
-  padding: 100px 750px;
+  padding: 100px 0;
   gap: 80px;
 }
 
@@ -53,8 +53,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 500px;
-  
+  width: 420px;
 }
 
 .hero-title {
@@ -120,8 +119,8 @@ a {
 }
 
 .section2-image-placeholder {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border: 4px solid #3882F6;
   border-radius: 15px;
 }
@@ -134,11 +133,34 @@ a {
   margin: 0;
 }
 
-
 .section3 {
-  height: 400px;
   background-color: #E5E7EB;
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
 }
+
+.section3-content {
+  width: 830px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+  margin: 0;
+}
+
+.signature {
+  font-size: 22px;
+  font-weight: 900;
+  color: #1a2331;
+  margin: 0;
+  text-align: right;
+  padding-right: 40px;
+}
+
 
 .section4 {
   height: 400px;
