@@ -1,7 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  background-color: black;
   margin-left: auto;
   margin-right: auto;
 }
@@ -164,10 +163,47 @@ a {
   padding-right: 40px;
 }
 
-
 .section4 {
-  height: 400px;
   background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+.section4-container {
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 100px;
+  padding: 50px 100px;
+  width: 850px;
+  background-color: #3882F6;
+  gap: 200px;
+  border-radius: 15px;
+}
+.section4-title {
+  font-size: 22px;  
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.section4-text {
+  font-size: 16px;  
+  color: rgb(230, 230, 230);
+  margin: 0;
+}
+
+.section4-button {
+  width: 130px;
+  height: 35px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 16px;
+  font-weight: bold;
+  border: white solid 2px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .footer {
@@ -179,3 +215,4 @@ a {
   justify-content: center;
   align-items: center;
 }
+
